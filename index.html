@@ -21,38 +21,47 @@
   <body>
     <!-- Header -->
     <header>
-      <nav class="navbar navbar-expand-sm navbar-light bg-light container">
-        <a class="navbar-brand" href="index.html"
-          ><span class="visually-hidden">Home</span>
-          <h1 class="title d-none d-md-block">Folk on the Lawn</h1>
-          <h1 class="title-abb d-md-none" aria-hidden="true">FotL</h1></a
-        >
-        <span id="dates-location"
-          >13th-16th July 2023 | Abbey Mill, Tintern</span
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDropdown"
-          aria-controls="navbarTogglerDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="bi bi-list fs-1"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDropdown">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item ms-auto">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item ms-auto">
-              <a class="nav-link" href="artists.html">Artist profiles</a>
-            </li>
-            <li class="nav-item ms-auto">
-              <a class="nav-link" href="accommodation.html">Accommodation</a>
-            </li>
-          </ul>
+      <nav class="navbar navbar-expand-md navbar-light bg-light container px-3">
+        <div class="col-6">
+          <a class="navbar-brand" href="index.html"
+            ><span class="visually-hidden">Home</span>
+            <h1 class="title d-none d-md-block">Folk on the Lawn</h1>
+            <h1 class="title-abb d-md-none" aria-hidden="true">FotL</h1></a
+          >
+          <span id="dates-location" class="d-none d-md-block"
+            >13th-16th July 2023 | Abbey Mill, Tintern</span
+          >
+          <span id="dates-location" class="d-md-none" aria-hidden="true"
+            >13th-16th July 2023<br />Abbey Mill, Tintern</span
+          >
+        </div>
+        <div class="col-6" id="burger-button">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDropdown"
+            aria-controls="navbarTogglerDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list fs-1"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item ms-auto">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item ms-auto">
+                <a class="nav-link" href="artists.html">Artist profiles</a>
+              </li>
+              <li class="nav-item ms-auto">
+                <a class="nav-link" href="accommodation.html">Accommodation</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>

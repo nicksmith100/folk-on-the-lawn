@@ -47,11 +47,29 @@ body {
 }
 
 .container {
-    background: #FFF6E6;
+    background-color: #FFF6E6;
 }
 
 h1 {
     color: #00495C;
     font-family: 'Effloresce', serif;
     font-weight: bold;
+    font-size: 2.5em;
+}
+
+/* Header */
+
+#dates-location {
+    font-family: 'Effloresce', serif;
+    float: left;
+    font-size: 1.5em;
+}
+
+#burger-button {
+    text-align: right;
+}
+
+.nav-item {
+    font-family: 'Effloresce', serif;
+    font-size: 1;
 }
