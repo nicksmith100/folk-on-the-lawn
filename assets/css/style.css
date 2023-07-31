@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'Effloresce';
-    src: url('Effloresce-Italic.woff2') format('woff2'),
-        url('Effloresce-Italic.woff') format('woff');
+    src: url('fonts/Effloresce-Italic.woff2') format('woff2'),
+        url('fonts/Effloresce-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -11,8 +11,8 @@
 
 @font-face {
     font-family: 'Effloresce';
-    src: url('Effloresce-Regular.woff2') format('woff2'),
-        url('Effloresce-Regular.woff') format('woff');
+    src: url('fonts/Effloresce-Regular.woff2') format('woff2'),
+        url('fonts/Effloresce-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -20,8 +20,8 @@
 
 @font-face {
     font-family: 'Effloresce';
-    src: url('Effloresce-Bold.woff2') format('woff2'),
-        url('Effloresce-Bold.woff') format('woff');
+    src: url('fonts/Effloresce-Bold.woff2') format('woff2'),
+        url('fonts/Effloresce-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -29,8 +29,8 @@
 
 @font-face {
     font-family: 'Effloresce';
-    src: url('Effloresce-BoldItalic.woff2') format('woff2'),
-        url('Effloresce-BoldItalic.woff') format('woff');
+    src: url('fonts/Effloresce-BoldItalic.woff2') format('woff2'),
+        url('fonts/Effloresce-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
